@@ -2,6 +2,7 @@ import React from "react";
 import Counter from "./counter.jsx";
 import Counterf from "./counterf.jsx";
 import Practica from "./practica.jsx";
+import Marcador from "./marcador.jsx";
 import ReactDOM from "react-dom";
 
 //include images into your bundle
@@ -20,13 +21,14 @@ const Home = () => {
 
 	return (
 		<div>
-			<h1 className="text-center mt-5">
+			<Marcador />
+			<h2 className="text-center mt-5">
 				Contador React - Componente funcional
-			</h1>
+			</h2>
 			<div className="text-center" id="counter"></div>
-			<h1 className="text-center mt-5">
+			<h2 className="text-center mt-5">
 				Contador React - Componente con estado
-			</h1>
+			</h2>
 			{/* Componente con estado propio */}
 			<div className="text-center">
 				<Practica />

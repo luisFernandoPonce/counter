@@ -11,7 +11,7 @@ const Practica = () => {
 	}, [seconds]);
 	return (
 		<div>
-			<h2>Segundos: {seconds}</h2>
+			<h3>Segundos: {seconds}</h3>
 		</div>
 	);
 };

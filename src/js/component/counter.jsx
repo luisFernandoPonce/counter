@@ -5,7 +5,7 @@ const Counter = () => {
 
 	return (
 		<div className="text-center mt-5">
-			<h1>Unidad {unidad}</h1>
+			<h3>Unidad {unidad}</h3>
 			<button
 				onClick={() => setUnidad(unidad + 1)}
 				className="btn btn-warning">

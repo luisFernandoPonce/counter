@@ -1,10 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
-    background-color: darkslategray;
+    background-color: black;
     color: whitesmoke;
 }
 
 .btn {
     margin: 5px;
-    border: 1px solid black;
-    box-shadow: 3px 0 1px 0 black;
+    border: 1px solid gray;
+    box-shadow: 1px 0 3px 0 white;
+}
+
+.btn:hover {
+    background-color: blue;
 }
