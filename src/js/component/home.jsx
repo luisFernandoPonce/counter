@@ -31,7 +31,7 @@ const Home = () => {
 			</h2>
 			{/* Componente con estado propio */}
 			<div className="text-center">
-				<Practica />
+				<counter />
 			</div>
 			<Counter />
 		</div>

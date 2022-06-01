@@ -50,7 +50,7 @@ function Marcador() {
 
 	return (
 		<div className="container">
-			<h1>React Simple Counter - by Jack</h1>
+			<h1> Counter </h1>
 			<div className="row align-items-start">
 				<div className="col" id="caja">
 					<i>
