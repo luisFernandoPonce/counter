@@ -9,12 +9,12 @@ const Counter = () => {
 			<button
 				onClick={() => setUnidad(unidad + 1)}
 				className="btn btn-warning">
-				Sumar unidad
+				+
 			</button>
 			<button
 				onClick={() => setUnidad(unidad - 1)}
 				className="btn btn-info">
-				Restar unidad
+				-
 			</button>
 		</div>
 	);

@@ -22,13 +22,9 @@ const Home = () => {
 	return (
 		<div>
 			<Marcador />
-			<h2 className="text-center mt-5">
-				Contador React - Componente funcional
-			</h2>
+			<h2 className="text-center mt-5">Contador React</h2>
 			<div className="text-center" id="counter"></div>
-			<h2 className="text-center mt-5">
-				Contador React - Componente con estado
-			</h2>
+			<h2 className="text-center mt-5">Componente con estado</h2>
 			{/* Componente con estado propio */}
 			<div className="text-center">
 				<counter />
